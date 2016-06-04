@@ -1,0 +1,13 @@
+//
+//  Global.pch
+//  PregnantCare
+//
+//  Created by tarena on 16/6/3.
+//  Copyright © 2016年 tarena. All rights reserved.
+//
+
+#ifndef Global_pch
+#define Global_pch
+
+#define styleColor [UIColor colorWithRed:153/255.0 green:234/255.0 blue:183/255.0 alpha:1]
+#endif /* Global_pch */
