@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  酷跑
+//
+//  Created by tarena on 16/6/7.
+//  Copyright © 2016年 tarena. All rights reserved.
+//
+// 手机系统9.1 以上 把xcode升级到7.2以上才可以
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <UIKit/UIKit.h>
+#import "UIImageView+roundImage.h"
+/** 主机名 */
+#define  KRXMPPHOSTNAME  @"127.0.0.1"
+//#define  KRXMPPHOSTNAME  @"124.207.192.18"
+/** 端口号 */
+#define  KRXMPPPORT    5222
+/** 服务器域名 */
+#define  KRXMPPDOMAIN  @"tedu.cn"
+//#define  KRXMPPDOMAIN  @"tarena.com"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
