@@ -1,0 +1,23 @@
+
+<books>
+	<book id="1">
+		<title>西游记</title>
+		<author>吴承恩</author>
+		<remark>本书的作者来自明朝</remark>
+	</book>
+	<book id="2">
+		<title>水浒传</title>
+		<author>施耐庵</author>
+		<remark>本书的作者来自元末明初</remark>
+	</book>
+	<book id="3">
+		<title>红楼梦</title>
+		<author>曹雪芹</author>
+		<remark>本书的作者来自清朝</remark>
+	</book>
+	<book id="4">
+		<title>三国演义</title>
+		<author>罗贯中</author>
+		<remark>本书的作者来自元末明初</remark>
+	</book>
+</books>
