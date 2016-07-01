@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D86C370D42947E0B762A77B /* libPods-发短信.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3CCA12F10C4B3EDD416E94 /* libPods-发短信.a */; };
+		852843101D18EF79005577A4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8528430F1D18EF79005577A4 /* libz.tbd */; };
+		852843121D18EF8A005577A4 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 852843111D18EF8A005577A4 /* libicucore.tbd */; };
+		852843141D18EF94005577A4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852843131D18EF94005577A4 /* MessageUI.framework */; };
+		852843161D18EFA4005577A4 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852843151D18EFA4005577A4 /* JavaScriptCore.framework */; };
+		852843181D18EFAE005577A4 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 852843171D18EFAE005577A4 /* libstdc++.tbd */; };
+		8591210F1D18CAA6004F0DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8591210E1D18CAA6004F0DFC /* main.m */; };
+		859121121D18CAA6004F0DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 859121111D18CAA6004F0DFC /* AppDelegate.m */; };
+		859121151D18CAA7004F0DFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859121141D18CAA7004F0DFC /* ViewController.m */; };
+		859121181D18CAA7004F0DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859121161D18CAA7004F0DFC /* Main.storyboard */; };
+		8591211B1D18CAA7004F0DFC /* ___.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 859121191D18CAA7004F0DFC /* ___.xcdatamodeld */; };
+		8591211D1D18CAA7004F0DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8591211C1D18CAA7004F0DFC /* Assets.xcassets */; };
+		859121201D18CAA7004F0DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8591211E1D18CAA7004F0DFC /* LaunchScreen.storyboard */; };
+		8591212D1D18ED47004F0DFC /* SMS_SDKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 859121281D18ED47004F0DFC /* SMS_SDKLocalizable.strings */; };
+		8591212E1D18ED47004F0DFC /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8591212A1D18ED47004F0DFC /* MOBFoundation.framework */; };
+		8591212F1D18ED47004F0DFC /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8591212B1D18ED47004F0DFC /* SMS_SDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C3CCA12F10C4B3EDD416E94 /* libPods-发短信.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-发短信.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC76FB4E225413A832F9C82 /* Pods-发短信.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-发短信.release.xcconfig"; path = "Pods/Target Support Files/Pods-发短信/Pods-发短信.release.xcconfig"; sourceTree = "<group>"; };
+		8528430F1D18EF79005577A4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		852843111D18EF8A005577A4 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		852843131D18EF94005577A4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		852843151D18EFA4005577A4 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		852843171D18EFAE005577A4 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		8591210A1D18CAA6004F0DFC /* 发短信.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "发短信.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8591210E1D18CAA6004F0DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		859121101D18CAA6004F0DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		859121111D18CAA6004F0DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		859121131D18CAA7004F0DFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		859121141D18CAA7004F0DFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		859121171D18CAA7004F0DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8591211A1D18CAA7004F0DFC /* ___.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "___.xcdatamodel"; sourceTree = "<group>"; };
+		8591211C1D18CAA7004F0DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8591211F1D18CAA7004F0DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		859121211D18CAA7004F0DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859121291D18ED47004F0DFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SMS_SDKLocalizable.strings; sourceTree = "<group>"; };
+		8591212A1D18ED47004F0DFC /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		8591212B1D18ED47004F0DFC /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		8591212C1D18ED47004F0DFC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SMS_SDKLocalizable.strings"; sourceTree = "<group>"; };
+		CBA70C577363015B047A5C37 /* Pods-发短信.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-发短信.debug.xcconfig"; path = "Pods/Target Support Files/Pods-发短信/Pods-发短信.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		859121071D18CAA6004F0DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852843181D18EFAE005577A4 /* libstdc++.tbd in Frameworks */,
+				852843161D18EFA4005577A4 /* JavaScriptCore.framework in Frameworks */,
+				852843141D18EF94005577A4 /* MessageUI.framework in Frameworks */,
+				852843121D18EF8A005577A4 /* libicucore.tbd in Frameworks */,
+				852843101D18EF79005577A4 /* libz.tbd in Frameworks */,
+				8591212F1D18ED47004F0DFC /* SMS_SDK.framework in Frameworks */,
+				8591212E1D18ED47004F0DFC /* MOBFoundation.framework in Frameworks */,
+				7D86C370D42947E0B762A77B /* libPods-发短信.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57D9C88E9943454DA5D5E1EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBA70C577363015B047A5C37 /* Pods-发短信.debug.xcconfig */,
+				4DC76FB4E225413A832F9C82 /* Pods-发短信.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		859121011D18CAA6004F0DFC = {
+			isa = PBXGroup;
+			children = (
+				8591210C1D18CAA6004F0DFC /* 发短信 */,
+				8591210B1D18CAA6004F0DFC /* Products */,
+				57D9C88E9943454DA5D5E1EA /* Pods */,
+				D96769A16132BFC75A8D56C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8591210B1D18CAA6004F0DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8591210A1D18CAA6004F0DFC /* 发短信.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8591210C1D18CAA6004F0DFC /* 发短信 */ = {
+			isa = PBXGroup;
+			children = (
+				859121101D18CAA6004F0DFC /* AppDelegate.h */,
+				859121111D18CAA6004F0DFC /* AppDelegate.m */,
+				859121131D18CAA7004F0DFC /* ViewController.h */,
+				859121141D18CAA7004F0DFC /* ViewController.m */,
+				859121271D18ED47004F0DFC /* SMS_SDK */,
+				859121161D18CAA7004F0DFC /* Main.storyboard */,
+				8591211C1D18CAA7004F0DFC /* Assets.xcassets */,
+				8591211E1D18CAA7004F0DFC /* LaunchScreen.storyboard */,
+				859121211D18CAA7004F0DFC /* Info.plist */,
+				859121191D18CAA7004F0DFC /* ___.xcdatamodeld */,
+				8591210D1D18CAA6004F0DFC /* Supporting Files */,
+			);
+			path = "发短信";
+			sourceTree = "<group>";
+		};
+		8591210D1D18CAA6004F0DFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8591210E1D18CAA6004F0DFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		859121271D18ED47004F0DFC /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				859121281D18ED47004F0DFC /* SMS_SDKLocalizable.strings */,
+				8591212A1D18ED47004F0DFC /* MOBFoundation.framework */,
+				8591212B1D18ED47004F0DFC /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+		D96769A16132BFC75A8D56C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				852843171D18EFAE005577A4 /* libstdc++.tbd */,
+				852843151D18EFA4005577A4 /* JavaScriptCore.framework */,
+				852843131D18EF94005577A4 /* MessageUI.framework */,
+				852843111D18EF8A005577A4 /* libicucore.tbd */,
+				8528430F1D18EF79005577A4 /* libz.tbd */,
+				1C3CCA12F10C4B3EDD416E94 /* libPods-发短信.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		859121091D18CAA6004F0DFC /* 发短信 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859121241D18CAA7004F0DFC /* Build configuration list for PBXNativeTarget "发短信" */;
+			buildPhases = (
+				78310C83DF3A11BDCAB9C1A8 /* 📦 Check Pods Manifest.lock */,
+				859121061D18CAA6004F0DFC /* Sources */,
+				859121071D18CAA6004F0DFC /* Frameworks */,
+				859121081D18CAA6004F0DFC /* Resources */,
+				0F422891D1FCAB3F7C7EA2E2 /* 📦 Embed Pods Frameworks */,
+				B015FAFE6237039ADB1A646E /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "发短信";
+			productName = "发短信";
+			productReference = 8591210A1D18CAA6004F0DFC /* 发短信.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		859121021D18CAA6004F0DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					859121091D18CAA6004F0DFC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = X6A25WMHQV;
+					};
+				};
+			};
+			buildConfigurationList = 859121051D18CAA6004F0DFC /* Build configuration list for PBXProject "发短信" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 859121011D18CAA6004F0DFC;
+			productRefGroup = 8591210B1D18CAA6004F0DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				859121091D18CAA6004F0DFC /* 发短信 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		859121081D18CAA6004F0DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8591212D1D18ED47004F0DFC /* SMS_SDKLocalizable.strings in Resources */,
+				859121201D18CAA7004F0DFC /* LaunchScreen.storyboard in Resources */,
+				8591211D1D18CAA7004F0DFC /* Assets.xcassets in Resources */,
+				859121181D18CAA7004F0DFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F422891D1FCAB3F7C7EA2E2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-发短信/Pods-发短信-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78310C83DF3A11BDCAB9C1A8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B015FAFE6237039ADB1A646E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-发短信/Pods-发短信-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		859121061D18CAA6004F0DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859121151D18CAA7004F0DFC /* ViewController.m in Sources */,
+				8591211B1D18CAA7004F0DFC /* ___.xcdatamodeld in Sources */,
+				859121121D18CAA6004F0DFC /* AppDelegate.m in Sources */,
+				8591210F1D18CAA6004F0DFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		859121161D18CAA7004F0DFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				859121171D18CAA7004F0DFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8591211E1D18CAA7004F0DFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8591211F1D18CAA7004F0DFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		859121281D18ED47004F0DFC /* SMS_SDKLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				859121291D18ED47004F0DFC /* en */,
+				8591212C1D18ED47004F0DFC /* zh-Hans */,
+			);
+			name = SMS_SDKLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		859121221D18CAA7004F0DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		859121231D18CAA7004F0DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		859121251D18CAA7004F0DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA70C577363015B047A5C37 /* Pods-发短信.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/发短信/SMS_SDK",
+				);
+				INFOPLIST_FILE = "发短信/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.test.cn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		859121261D18CAA7004F0DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC76FB4E225413A832F9C82 /* Pods-发短信.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/发短信/SMS_SDK",
+				);
+				INFOPLIST_FILE = "发短信/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.test.cn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		859121051D18CAA6004F0DFC /* Build configuration list for PBXProject "发短信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859121221D18CAA7004F0DFC /* Debug */,
+				859121231D18CAA7004F0DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		859121241D18CAA7004F0DFC /* Build configuration list for PBXNativeTarget "发短信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859121251D18CAA7004F0DFC /* Debug */,
+				859121261D18CAA7004F0DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		859121191D18CAA7004F0DFC /* ___.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8591211A1D18CAA7004F0DFC /* ___.xcdatamodel */,
+			);
+			currentVersion = 8591211A1D18CAA7004F0DFC /* ___.xcdatamodel */;
+			path = "___.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 859121021D18CAA6004F0DFC /* Project object */;
+}
