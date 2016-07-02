@@ -14,13 +14,36 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - JSONModel (1.2.0)
+  - KissXML (5.0.3):
+    - KissXML/Standard (= 5.0.3)
+  - KissXML/Core (5.0.3)
+  - KissXML/Standard (5.0.3):
+    - KissXML/Core
+  - Masonry (1.0.1)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - YYKit (1.0.7):
+    - YYKit/no-arc (= 1.0.7)
+  - YYKit/no-arc (1.0.7)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - JSONModel (~> 1.2.0)
+  - KissXML (~> 5.0.3)
+  - Masonry (~> 1.0.0)
+  - SDWebImage (~> 3.8.1)
+  - YYKit (~> 1.0.6)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  KissXML: d19dd6dc65e0dc721ba92b3077b8ebdd240f1c1e
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
 
-PODFILE CHECKSUM: 3aca3951fb7ee1d45174ebf653cfa1cda7bd3f69
+PODFILE CHECKSUM: 4603759ae56653e78a7a240e0e7762f375f7eccb
 
 COCOAPODS: 1.0.0

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PCSubCategoryView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MfY-xv-TAN">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="mtL-FY-We2"/>
+                    </constraints>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="C2V-gj-ygr">
+                    <rect key="frame" x="80" y="0.0" width="295" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="C2V-gj-ygr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3Ip-IZ-isg"/>
+                <constraint firstItem="C2V-gj-ygr" firstAttribute="leading" secondItem="MfY-xv-TAN" secondAttribute="trailing" id="LHR-gN-hg1"/>
+                <constraint firstAttribute="trailing" secondItem="C2V-gj-ygr" secondAttribute="trailing" id="Lvh-5t-Zua"/>
+                <constraint firstItem="MfY-xv-TAN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Rfq-jp-nQ4"/>
+                <constraint firstAttribute="bottom" secondItem="C2V-gj-ygr" secondAttribute="bottom" id="U8c-1k-mb3"/>
+                <constraint firstItem="MfY-xv-TAN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fqQ-q7-HC2"/>
+                <constraint firstAttribute="bottom" secondItem="MfY-xv-TAN" secondAttribute="bottom" id="iYD-Ip-ATe"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <connections>
+                <outlet property="mainTableView" destination="MfY-xv-TAN" id="bNK-EP-Rrh"/>
+                <outlet property="subTableView" destination="C2V-gj-ygr" id="lj3-cA-892"/>
+            </connections>
+            <point key="canvasLocation" x="295.5" y="294.5"/>
+        </view>
+    </objects>
+</document>

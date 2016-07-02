@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="75" id="KGk-i7-Jjw" customClass="PCDiseaseCell">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="322" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcD-Ij-hLX">
+                        <rect key="frame" x="10" y="10" width="30" height="30"/>
+                        <color key="backgroundColor" red="0.85532852564102568" green="0.85532852564102568" blue="0.85532852564102568" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="hsW-5V-sY7"/>
+                            <constraint firstAttribute="width" secondItem="lcD-Ij-hLX" secondAttribute="height" id="lAA-m1-fiR"/>
+                        </constraints>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urc-eM-QSj">
+                        <rect key="frame" x="50" y="45" width="40" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="9VK-7i-0vC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EXz-13-nRb">
+                        <rect key="frame" x="292" y="10" width="10" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="1rS-t2-CAh"/>
+                            <constraint firstAttribute="width" secondItem="EXz-13-nRb" secondAttribute="height" id="VLb-3M-gGW"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kmg-qS-aDE">
+                        <rect key="frame" x="50" y="10" width="44" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="c2W-re-lSk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="EXz-13-nRb" secondAttribute="trailing" constant="20" id="3sT-Gh-zlf"/>
+                    <constraint firstItem="lcD-Ij-hLX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="DvN-4d-MbM"/>
+                    <constraint firstItem="EXz-13-nRb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="OiE-XX-SvA"/>
+                    <constraint firstItem="Kmg-qS-aDE" firstAttribute="top" secondItem="lcD-Ij-hLX" secondAttribute="top" id="ZVY-mI-lzA"/>
+                    <constraint firstItem="Kmg-qS-aDE" firstAttribute="leading" secondItem="lcD-Ij-hLX" secondAttribute="trailing" constant="10" id="hmd-ao-f8p"/>
+                    <constraint firstItem="urc-eM-QSj" firstAttribute="leading" secondItem="Kmg-qS-aDE" secondAttribute="leading" id="l2A-qN-oZi"/>
+                    <constraint firstItem="lcD-Ij-hLX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="oeD-gh-PCV"/>
+                    <constraint firstItem="urc-eM-QSj" firstAttribute="top" secondItem="Kmg-qS-aDE" secondAttribute="bottom" constant="15" id="zTN-WA-Lfp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bottomLabel" destination="urc-eM-QSj" id="lj6-Wh-tgb"/>
+                <outlet property="numberButton" destination="lcD-Ij-hLX" id="5dp-uB-etA"/>
+                <outlet property="unfoldImage" destination="EXz-13-nRb" id="iOV-xZ-VFM"/>
+                <outlet property="upLabel" destination="Kmg-qS-aDE" id="j1t-J2-PvL"/>
+            </connections>
+            <point key="canvasLocation" x="250" y="411.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -9,5 +9,9 @@
 #ifndef Global_pch
 #define Global_pch
 
-#define styleColor [UIColor colorWithRed:153/255.0 green:234/255.0 blue:183/255.0 alpha:1]
+#import "UIView+Extension.h"
+#define styleColor [UIColor colorWithRed:97/255.0 green:150/255.0 blue:99/255.0 alpha:1]
+#define articleRequestUrl @"/openinterface/gethelperbypage.ashx?page=%d&pagesize=10&%@"
+#define articleDetailRequestUrl @"/openinterface/gethelperdetails.ashx?id=%@"
+#define urlPrefix @"http://apps.caredsp.com"
 #endif /* Global_pch */

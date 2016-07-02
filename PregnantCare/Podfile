@@ -7,4 +7,10 @@ target 'PregnantCare' do
 
   # Pods for PregnantCare
 pod 'AFNetworking', '~> 3.0'
+pod 'Masonry', '~> 1.0.0'
+pod 'YYKit', '~> 1.0.6'
+pod 'KissXML', '~> 5.0.3'
+pod 'SDWebImage', '~> 3.8.1'
+pod 'JSONModel', '~> 1.2.0'
+
 end
